@@ -39,7 +39,7 @@ while game_active:
             elif (user_answer.lower() == "scissors" and computer_answer == "rock") or (user_answer.lower() == "rock" and computer_answer == "paper") or (user_answer.lower() == "paper" and computer_answer == "scissors"):
                 lose += 1
                 print(f"\nYou lose, better luck next time {name_formatted}!")
-            print(f"Wins: {win} Loses: {lose}")
+            print(f"Wins: {win} Losses: {lose}")
         else: 
             print("\nThat's not a valid play. Check the rules if you're having trouble.")   
     game_active = False
